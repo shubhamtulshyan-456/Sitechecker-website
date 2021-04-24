@@ -1,0 +1,536 @@
+*{
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    padding: 25px;
+}
+.rght{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+.lft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.indent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.under{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 80px;
+    color: black;
+}
+.left{
+    padding: 0 15px;
+}
+.right{
+    padding: 0 15px;
+}
+.btn{
+    background-color: rgb(127, 127, 230);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-color: rgb(127, 127, 230);
+    width: 100%;
+}
+.font{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 25px;
+}
+.size{
+    font-size: 25px;
+    padding: 25px;
+}
+.bttn{
+    border: 2px solid gray;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.text{
+    border: none;
+    width: 400px;
+    padding: 15px;
+}
+.analyze{
+    background-color: blue;
+    color: white;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    background-color: rgb(236, 216, 211);
+}
+.loy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+.lot{
+    font-size: 30px;
+}
+.por{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.man{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+}
+.lnk{
+    text-decoration: none;
+}
+.toy{
+    max-width: 750px;
+}
+.bun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.more{
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.demo{
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+.demo:hover{
+    border: 2px solid orangered;
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    background-color: rgb(199, 226, 199);
+}
+.buns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.mores{
+    background-color: rgba(35, 228, 35, 0.911);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mores:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.demos{
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+.demos:hover{
+    border: 2px solid rgba(35, 228, 35, 0.911);
+    color: rgba(35, 228, 35, 0.911);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    background-color: rgb(238, 224, 238);
+}
+.bunt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mored{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mored:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.demoes{
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+.demoes:hover{
+    border: 2px solid purple;
+    color: purple;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(228, 228, 202);
+}
+.fonts{
+    font-size: 30px;
+    padding: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.col img{
+    padding: 10px;
+}
+.col h1{
+    padding: 10px;
+}
+.col p{
+    padding: 10px;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 226, 245);
+    padding: 25px;
+}
+.is{
+    font-size: 40px;
+}
+.lot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mid{
+    border: 2px solid white;
+    background-color: white;
+    border-left: 3px solid rgb(82, 180, 219);
+    padding: 10px;
+    font-size: 20px;
+}
+.center{
+    padding: 10px;
+}
+.sent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: white;
+    border-right: 3px solid rgb(82, 180, 219);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.imag{
+    padding: 0 25px;
+}
+.ment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: white;
+    border-right: 3px solid rgb(82, 180, 219);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.seventh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 209, 166);
+    width: 100%;
+    padding: 50px;
+}
+.seventh h1{
+    font-size: 40px;
+}
+.mam{
+    font-size: 18px;
+}
+.beer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.for{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.kol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+.den{
+    border-radius: 50%;
+}
+.ass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(76, 168, 204);
+    background-color: rgb(76, 168, 204);
+    border-radius: 10px;
+    height: 100px;
+}
+.were{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pool{
+    padding: 20px 40px;
+    background-color: rgb(4, 104, 253);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.pool:hover{
+    text-decoration: underline;
+}
+.eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    background-color: cornflowerblue;
+}
+.pad{
+    padding: 25px;
+}
+.gad{
+    padding: 50px;
+    font-size: 40px;
+}
+.san{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.van{
+    padding: 5px 50px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.van:hover{
+    cursor: pointer;
+}
+.ninth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    background-color: gray;
+}
+.fre{
+    font-size: 40px;
+    padding: 15px;
+}
+.ask{
+    font-size: 20px;
+    padding: 20px;
+}
+.fst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(212, 209, 209);
+    padding: 25px;
+    max-width: 1000px;
+    margin: 10px;
+}
+.sail{
+    text-decoration: none;
+}
+.sail:hover{
+    color: darkslategray;
+}
+.tenth{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+.xen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+.op{
+    width: 250px;
+    padding: 15px;
+}
+.wets{
+    color: gray;
+    padding: 15px;
+}
+.ben{
+    color: gray;
+    padding: 15px;
+}
+.web{
+    width: 150px;
+    padding: 15px;
+}
+.not{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.dot{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.rare{
+    color: rgb(92, 90, 90);
+    padding: 5px 0;
+}
+.fear{
+    list-style: none;
+    padding: 5px 0;
+}
+.zoo{
+    color: gray;
+    text-decoration: none;
+}
+.zoo:hover{
+    color: blue;
+    text-decoration: underline;
+}
